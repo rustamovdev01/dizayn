@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins&family=Red+Hat+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1368px;
+    margin: 0 auto;
+    background: #fbf7f7;
+    height: 5000px;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.logo {
+    padding-left: 10%;
+}
+
+li {
+    display: inline-block;
+    margin-left: 30px;
+    list-style: none;
+    color: #7E7F86;
+    padding-top: 5px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+li:hover {
+    text-decoration: underline;
+    transition: 0.5s ease-in;
+    color: #505153;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-right: 40%;
+}
+
+.menu {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-right: 10%;
+    margin-top: -1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu:hover {
+    margin-top: -18px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.wrapper {
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper_left {
+    width: 50%;
+    padding-left: 15%;
+}
+
+.wrapper_right {
+    width: 50%;
+    margin-top: -10%;
+}
+
+.wrapper_left h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #666666;
+
+}
+
+.wrapper_left h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    color: #25202F;
+    padding-top: 2%;
+}
+
+.wrapper_left p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+    padding-top: 5%;
+}
+a{
+    text-decoration: none;
+}
+.btn {
+    background: #8643DC;
+    border-radius: 100px;
+    width: 240px;
+    height: 70px;
+    border: none;
+    padding: 20px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    margin-top: 46px;
+    background: #7a41c4;
+    transition: 0.3s ease-in;
+}
+
+.services {
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.services_info {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+
+}
+
+.services_info:hover {
+    border-bottom: 2px solid #8643DC;
+    width: 50px;
+    cursor: pointer;
+}
+
+.titleone {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 15px;
+    color: #25202F;
+}
+
+.info_box {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    margin-left: -60px;
+}
+
+.band {
+    display: flex;
+    width: 350px;
+}
+
+.band h1 {
+    display: inline-block;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+    margin-top: 15px;
+    margin-left: 2%;
+}
+
+.info_box p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 22px;
+    color: #47444E;
+    margin-top: 15px;
+}
+
+.portfolio_left h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+
+}
+
+.portfolio_left h2:hover {
+    border-bottom: 2px solid #8643DC;
+    width: 50px;
+    cursor: pointer;
+}
+
+.portfolio {
+    padding-top: 10%;
+}
+
+.portfolio_left h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 15px;
+    color: #25202F;
+}
+
+.portfolio_left {
+    float: left;
+    padding-left: 80px;
+}
+
+.portfolio_right {
+    float: right;
+    padding-top: 5%;
+    padding-right: 8%;
+}
+
+.portfolio_right h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+
+.portfolio_right h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fa-arrow-right {
+    color: #8643DC;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+
+.dowlands {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+
+}
+
+.text h2:hover {
+    border-bottom: 2px solid #8643DC;
+    width: 50px;
+    cursor: pointer;
+}
+
+.text h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 15px;
+    color: #25202F;
+}
+
+.text {
+    padding-left: 80px;
+}
+
+.dowlands div {
+    background: #FFF7FA;
+    border: 1px solid #FFE7F0;
+    border-radius: 10px;
+    width: 170px;
+    height: 170px;
+    margin-top: 3%;
+    color: #000000;
+
+}
+
+.dowlands div img {
+    width: 50px;
+    height: 50px;
+    margin-left: 33%;
+    margin-top: 20%;
+}
+
+.dowlands div h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.clients{
+    padding-top: 5%;
+}
+.dowlands_boxone:hover {
+    background: linear-gradient(90deg, rgba(23, 223, 231, 0.8463760504201681) 20%, rgba(11, 204, 0, 0.8519782913165266) 39%, rgba(223, 20, 20, 0.8295693277310925) 61%, rgba(231, 240, 21, 0.8099614845938375) 81%);
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.dowlands_boxtwo:hover {
+    background: rgb(70, 226, 52);
+    background: linear-gradient(90deg, rgba(70, 226, 52, 0.8295693277310925) 27%, rgba(46, 161, 34, 0.8127626050420168) 43%, rgba(38, 152, 32, 0.8099614845938375) 81%);
+    transition: 0.5s ease-in;
+    color: white;
+}
+
+.dowlands_boxthree:hover {
+    background: rgb(226, 52, 52);
+    background: linear-gradient(90deg, rgba(226, 52, 52, 0.8295693277310925) 18%, rgba(16, 228, 33, 0.8127626050420168) 33%, rgba(14, 209, 221, 0.8155637254901961) 52%, rgba(203, 226, 16, 0.8099614845938375) 88%);
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.dowlands_boxfour:hover {
+    background: rgb(216, 221, 14);
+    background: linear-gradient(90deg, rgba(216, 221, 14, 0.8155637254901961) 43%, rgba(174, 190, 43, 0.8099614845938375) 88%);
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.dowlands_boxfive:hover {
+    background: rgb(33, 224, 7);
+    background: linear-gradient(90deg, rgba(33, 224, 7, 0.8155637254901961) 43%, rgba(27, 218, 49, 0.8099614845938375) 88%);
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.testimonials {
+    padding-top: 15%;
+}
+
+.comment {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.comment h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #636066;
+}
+
+.imges_one {
+    margin-top: -110px;
+    margin-left: 160px;
+}
+
+.imges_one img {
+    border-radius: 12px;
+    opacity: 70%;
+    filter: blur(0.9px);
+}
+
+.imges_two {
+    margin-top: 190px;
+    margin-left: 250px;
+}
+
+.imges_two img {
+    border-radius: 12px;
+    opacity: 70%;
+    filter: blur(0.9px);
+
+}
+
+.imges_three {
+    margin-right: 1%;
+    margin-top: -14%;
+    text-align: center;
+}
+
+.imges_three img {
+    border-radius: 10px;
+}
+
+.imges_four img {
+    border-radius: 12px;
+    opacity: 70%;
+    filter: blur(0.9px);
+
+}
+
+.imges_five img {
+    border-radius: 12px;
+    opacity: 70%;
+    filter: blur(0.9px);
+
+}
+
+.imges_four {
+    float: right;
+    margin-right: 250px;
+    margin-top: -22px;
+}
+
+.imges_five {
+    float: right;
+    margin-right: -150px;
+    margin-top: -21%;
+}
+
+.imges_three h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.imges_three p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.imges_six {
+    display: flex;
+    justify-content: center;
+    margin-left: -2%;
+    margin-top: 15%;
+}
+
+.blog {
+    padding-top: 12%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog_imgtwo img {
+    width: 255px;
+    height: 350px;
+}
+
+.blog_imgthree img {
+    width: 255px;
+    height: 350px;
+}
+
+.blog_imgone p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #8643DC;
+    padding-top: 10px;
+}
+
+.blog_imgone h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.contact {
+    padding-top: 15%;
+}
+
+.contact .text h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+}
+
+.contact .text h2:hover {
+    border-bottom: 2px solid #8643DC;
+    width: 140px;
+    cursor: pointer;
+}
+
+.text_right {
+    float: right;
+    margin-top: -13%;
+    margin-right: 6%;
+}
+
+.text_right h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8643DC;
+    text-transform: lowercase;
+
+}
+
+.text_right h1:hover {
+    text-decoration-line: underline;
+    transition: 0.5s ease-in;
+}
+
+.inputs input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #DAD2E3;
+    width: 90%;
+    height: 60px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.inputs input:focus {
+    outline: none;
+}
+
+.inputs {
+    margin-top: 2%;
+}
+
+.inputs button {
+    width: 200px;
+    height: 60px;
+    padding: 15px;
+    margin-left: 80px;
+}
+
+.and {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #21232D;
+    margin-top: 10%;
+}
+
+.last_logos {
+    display: flex;
+    padding-left: 37%;
+    padding-top: 25px;
+
+}
+
+.last_logos img {
+    margin-left: 50px;
+    cursor: pointer;
+}
